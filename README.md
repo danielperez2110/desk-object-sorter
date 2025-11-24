@@ -4,44 +4,43 @@
 This project uses Google’s Teachable Machine to create a machine learning model that can recognize common objects in my bedroom. The purpose is to learn the fundamentals of supervised image classification, including collecting and labeling training data, training and testing a model, iterating and refining, understanding bias in AI, and exporting and managing models with GitHub.
 
 ## Classes My Model Will Recognize
+## Classes My Model Will Recognize
 - PS4 Controller
-- PlayStation
-- iPad
 - Nintendo Switch
 - Keys
 - Wallet
 - Phone
+- AirPods## Discussion & Reflection (To Fill After Lab)
 
-## Discussion & Reflection (To Fill After Lab)
+Yes! You can replace the blanks in that exact format with the answers we summarized. Here’s a version ready for copy-paste:
 
-### 1. Model Performance & Iteration
-- First trained model accuracy: ___________________________
-- Steps to improve performance: ___________________________
-- Effect on accuracy/confidence scores: ___________________________
+⸻
 
-### 2. Challenges & Observations
-- Easiest objects to recognize and why: ___________________________
-- Hardest objects to recognize and why: ___________________________
-- Behavior with untrained objects: ___________________________
+1. Model Performance & Iteration
+	•	First trained model accuracy: Low accuracy initially
+	•	Steps to improve performance: Took better pictures from improved distances, providing clearer views of the objects
+	•	Effect on accuracy/confidence scores: Accuracy improved significantly with clearer and better-angled images
 
-### 3. Bias in AI
-- Bias from training only one version of an object: ___________________________
-- Effects of lighting or angles: ___________________________
+2. Challenges & Observations
+	•	Easiest objects to recognize and why: Objects with clear, distinct features and good lighting
+	•	Hardest objects to recognize and why: Objects viewed from different angles or in low-light conditions
+	•	Behavior with untrained objects: Model struggled and often misclassified objects it hadn’t seen
 
-### 4. Model Limitations & Usefulness
-- Model limitations: ___________________________
-- Why exporting model files is useful: ___________________________
+3. Bias in AI
+	•	Bias from training only one version of an object: Model performs well only on the specific version it was trained on (e.g., one color or one angle)
+	•	Effects of lighting or angles: Variations in lighting or angles can significantly reduce accuracy
 
-### 5. Real-World Applications & Ethics
-- Applications:
-  1. ___________________________
-  2. ___________________________
-  3. ___________________________
-- Ethical Consideration: ___________________________
+4. Model Limitations & Usefulness
+	•	Model limitations: Limited by the small number of objects and reliance on good lighting conditions
+	•	Why exporting model files is useful: Allows deployment across platforms, sharing, and further testing
 
-### Optional
-- Challenges / Interesting Discoveries: ___________________________
-- Screenshot of Teachable Machine interface: [Insert here]
+5. Real-World Applications & Ethics
+	•	Applications:
+	1.	Inventory management – recognize and locate products efficiently
+	2.	Smart home devices – identify objects for automation
+	3.	Augmented reality – enhance AR experiences by recognizing real-world objects
+	•	Ethical Consideration: Privacy concerns if recognizing individuals, and potential bias from limited or unrepresentative training data
+
 
 ## Repository Contents
 - model.json
