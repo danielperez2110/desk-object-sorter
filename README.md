@@ -42,4 +42,4 @@ This project uses Google’s Teachable Machine to create a machine learning mode
 - model.json
 - weights.bin
 - metadata.json
-- README.md (this file)
+- README.md
